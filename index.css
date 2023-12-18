@@ -1,10 +1,43 @@
+.container {
+  padding: 4rem 2rem;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
 .navbar-nav .nav-link {
   color: 000000;
   font-size: 1.2rem;
 }
 
+section.hero {
+  background-color: #ecfeff;
+  padding-top: 85px;
+  text-align: justify;
+}
+section.hero img {
+  width: 70%;
+}
 @media (min-width: 1024px) {
   .navbar-nav .nav-item {
     padding: 0 1rem;
+  }
+}
+@media (max-width: 576px) {
+  section.hero {
+    text-align: center;
+    padding-top: 105px;
+  }
+  section.hero img {
+    width: 50%;
+  }
+  .container {
+    padding: 1rem 1rem;
+    border: 1px solid black;
   }
 }
